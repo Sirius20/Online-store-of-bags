@@ -10,13 +10,17 @@
     <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="novelties.css">
+    <link rel="stylesheet" href="brands.css">
+    <link rel="stylesheet" href="style-news.css">
+    <link rel="stylesheet" href="reviews.css">
+    <link rel="stylesheet" href="main-footer.css">
 
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <header class="main-header">
+    <header class="container main-header">
       <nav class="main-header-nav">
         <div class="logo"><a><img src="img/logo.png" width="160" height="90" alt="Логотип интернет-магазина"></a></div>
 
@@ -32,7 +36,7 @@
       </nav>
     </header>
 
-    <main>
+    <main class="container">
       <h1 class="visually-hidden">Магазин оригинальных брендовых сумок</h1>
 
       <section class="promo">
@@ -61,7 +65,7 @@
               </div>
             
             <div class="novelties-item__detail">
-              <a href="#">Смотреть детали</a>
+              <a href="#" class="link">Смотреть детали &rarr;</a>
               <button type="button" class="button-simple">Добавить в корзину</button>
             </div>
           </li>
@@ -75,7 +79,7 @@
               </div>
 
             <div class="novelties-item__detail">
-              <a class="link" href="#">Смотреть детали</a>
+              <a href="#" class="link">Смотреть детали &rarr;</a>
               <button type="button" class="button-simple">Добавить в корзину</button>
             </div>
           </li>
@@ -89,7 +93,7 @@
               </div>
 
             <div class="novelties-item__detail">
-              <a href="#">Смотреть детали</a>
+              <a href="#" class="link">Смотреть детали &rarr;</a>
               <button type="button" class="button-simple">Добавить в корзину</button>
             </div>
           </li>
@@ -103,7 +107,7 @@
               </div>
             
             <div class="novelties-item__detail">
-              <a href="#">Смотреть детали</a>
+              <a href="#" class="link">Смотреть детали &rarr;</a>
               <button type="button" class="button-simple">Добавить в корзину</button>
             </div>
           </li>
@@ -155,33 +159,44 @@
 
       <article class="style-news">
         <h2>Стильные новости</h2>
-        <p class="heading-description">Наш стилист рад поделиться с Вами последними 
+        <p class="heading-description">Наш стилист рад поделиться с Вами последними<br> 
            актуальными новостями в мире моды</p>
+        
+        <div class="style-news-background"></div>
 
         <ul class="style-news-list">
-          <li class="style-news-item"><img src="img/news-block-002.jpg" width="315" height="240" alt="Женские брендовые сумки-клатчи">
+          <li class="style-news-item">
+            <img src="img/news-block-002.jpg" width="315" height="240" alt="Женские брендовые сумки-клатчи">
+
             <time datetime="2017-07-07">07.07.2017</time>
-            <h3>Женские брендовые сумки-клатчи</h3>
+
+            <h3 class="style-news-heading">Женские брендовые сумки-клатчи</h3>
             <p>
-              Выбирая женские брендовые клатчи стоит оценить все возможности и нюансы. А для начала уточнить с каким нарядом планируете его носить, ведь сумка-клатч, не просто стильный аксессуар, а отличительная черта вашего стиля.
+              Выбирая женские брендовые клатчи стоит оценить все возможности и нюансы. А для начала уточнить...
             </p>
             <a class="link" href="#">Перейти к новости &rarr;</a>
           </li>
 
-          <li class="style-news-item"><img src="img/news-block-102.jpg" width="315" height="240" alt="Baildinini">
+          <li class="style-news-item">
+            
+            <img src="img/news-block-102.jpg" width="315" height="240" alt="Baildinini">
             <time datetime="2017-07-07">07.07.2017</time>
-            <h3>Женские сумки Baildinini</h3>
+
+            <h3 class="style-news-heading">Женские сумки <span>Baildinini</span></h3>
             <p>
-              Один из самых именитых итальянских Домов моды представляет собственный взгляд на то, как именно должна выглядеть современная деловая женщина.
+              Один из самых именитых итальянских Домов моды представляет собственный взгляд на то, как именно...
             </p>
             <a class="link" href="#">Перейти к новости &rarr;</a>
           </li>
 
-          <li class="style-news-item"><img src="img/news-block-502.jpg" width="315" height="240" alt="MiTchel KorsO">
+          <li class="style-news-item">
+            <img src="img/news-block-502.jpg" width="315" height="240" alt="MiTchel KorsO">
+
             <time datetime="2017-07-07">07.07.2017</time>
-            <h3>MiTchel KorsO: как отличить от подделки</h3>
+
+            <h3 class="style-news-heading">MiTchel KorsO: <span>как отличить от подделки</span></h3>
             <p>
-              Бренд принадлежит легендарному американскому дизайнеру Майклу Корсу, которому за короткий срок удалось получить известность в мире высокой моды, запустив собственные линии подиумных коллекций. Одежду Корса носят такие знаменитости, как Мишель Обама, Дженнифер Лопес, Хайди Клум, Рэйчел Макадамс, Кэтрин Зета-Джонс и другие.
+              Бренд принадлежит легендарному американскому дизайнеру Майклу Корсу, которому за короткий срок удалось...
             </p>
             <a class="link" href="#">Перейти к новости &rarr;</a>
           </li>
@@ -202,14 +217,14 @@
 
           <li class="reviews-item">
             <blockquote class="reviews-text">
-              <p>Внимательные консультанты. Вежливые. Пункт самовывоза находится рядом с метро. Естьвозможность примерки. С примеркой не торопят. Советуют.</p>
+              <p>Внимательные консультанты. Вежливые. Пункт самовывоза находится рядом с метро. Есть возможность примерки. С примеркой не торопят. Советуют.</p>
               <cite class="reviews-author">Светлана</cite>
             </blockquote>
           </li>
 
           <li class="reviews-item">
             <blockquote class="reviews-text">
-              <p>Удобный поиск, выбор на любой вкус и достаток, конкурентная цена, хорошие скидки, возможность оплаты покупки бонусами на 100 %, быстрая доставка.</p>
+              <p>Удобный поиск, выбор на любой вкус и достаток, конкурентная цена, хорошие скидки, возможность оплаты покупки бонусами на 100%, быстрая доставка.</p>
               <cite class="reviews-author">Ольга</cite>
             </blockquote>
           </li>
@@ -218,49 +233,47 @@
     </main>
 
     <footer class="main-footer">
-        <section class="navigation">
-          <section class="navigation-about">
-            <h2>О нас</h2>
-            <ul class="footer-nav">
-              <li><a href="#">О компании</a></li>
-              <li><a href="#">Реквизиты</a></li>
-              <li><a href="#">Контакты</a></li>
-            </ul>
-         </section>
+      <section>
+        <h2>О нас</h2>
+        <ul class="navigation-list">
+          <li class="navigation-item"><a href="#">О компании</a></li>
+          <li class="navigation-item"><a href="#">Реквизиты</a></li>
+          <li class="navigation-item"><a href="#">Контакты</a></li>
+        </ul>
+      </section>
 
-          <section class="navigation-services">
-            <h2>Сервис</h2>
-            <ul class="footer-nav">
-              <li><a href="#">Доставки</a></li>
-              <li><a href="#">Оплата</a></li>
-              <li><a href="#">Возврат</a></li>
-            </ul>
-          </section>
+      <section>
+        <h2>Сервис</h2>
+        <ul class="navigation-list">
+          <li class="navigation-item"><a href="#">Доставки</a></li>
+          <li class="navigation-item"><a href="#">Оплата</a></li>
+          <li class="navigation-item"><a href="#">Возврат</a></li>
+        </ul>
+      </section>
 
-          <section class="navigation-advanced">
-            <h2>Дополнительно</h2>
-            <ul class="footer-nav">
-              <li><a href="#">Скидочная карта</a></li>
-              <li><a href="#">Бонусы</a></li>
-            </ul>
-          </section>
-        </section>
+      <section>
+        <h2>Дополнительно</h2>
+        <ul class="navigation-list">
+          <li class="navigation-item"><a href="#">Скидочная карта</a></li>
+          <li class="navigation-item"><a href="#">Бонусы</a></li>
+        </ul>
+      </section>
 
-        <section>
-          <ul class="social-list">
-            <li class="social-list-item">
-              <a href="">VK</a>
-            </li>
+      <section>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a href="#" class="social-list-vk">VK</a>
+          </li>
 
-            <li class="social-list-item">
-              <a href="">FB</a>
-            </li>
+          <li class="social-list-item">
+            <a href="#" class="social-list-fb">FB</a>
+          </li>
 
-            <li class="social-list-item">
-              <a href="">Twitter</a>
-            </li>
-          </ul>
-          <a class="button">Обратная связь</a>
+          <li class="social-list-item">
+            <a href="#" class="social-list-twitter">Twitter</a>
+          </li>
+        </ul>
+        <a class="button">Обратная связь</a>
         </section>
     </footer>
   </body>

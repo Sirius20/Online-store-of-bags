@@ -1,0 +1,9 @@
+.brands {
+  margin-bottom: 110px;
+}
+
+.brands-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}

@@ -1,0 +1,37 @@
+.reviews {
+  margin-bottom: 110px;
+}
+
+.reviews-list {
+  display: flex;
+  list-style: none;
+  background-color: #f3f3f1;
+  padding: 10px 0;
+}
+
+.reviews-item {
+  text-align: center;
+  padding: 20px 20px 40px 20px;
+  border-right: 1px solid rgba(154, 154, 154, 0.2);
+}
+
+.reviews-item:last-child {
+  border-right: none;
+}
+
+.reviews-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.reviews-text p {
+  margin-bottom: 25px;
+}
+
+.reviews-author {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+}

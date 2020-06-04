@@ -1,3 +1,7 @@
+.novelties {
+  margin-bottom: 150px;
+}
+
 .novelties-list {
   display: flex;
   justify-content: center;
@@ -26,5 +30,16 @@
 
 .novelties-item__detail {
   display: none;
+  margin-top: 20px;
   padding-left: 50px;
+  transition-duration: 5s;
+}
+
+.novelties-text:hover {
+  display: none;
+  order: 1;
+}
+
+.novelties-text:hover ~ .novelties-item__detail {
+  display: block;
 }

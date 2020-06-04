@@ -1,0 +1,89 @@
+.main-footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f3f3f1;
+  padding-bottom: 50px;
+}
+
+.main-footer h2 {
+  font: inherit;
+  text-transform: none;
+  text-align: left;
+  color: black;
+  padding-left: 40px;
+  margin-top: 55px;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-item {
+  padding-bottom: 8px;
+}
+
+.navigation-item a {
+  font-size: 14px;
+  color: #9a9a9a;
+  text-decoration: underline solid #d2d2d1;
+}
+
+.navigation-item a:hover {
+  color: #d2d2d1;
+}
+
+.navigation-item a:active {
+  color: #757575;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+.social-list-item {
+  position: relative;
+}
+.social-list-item a {
+  font-size: 0;
+}
+
+.social-list-vk::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background: url("img/iconmonstr-vk-1-24.png") no-repeat 50% 50%;
+}
+
+.social-list-fb::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 24px;
+  height: 24px;
+  background: url("img/iconmonstr-facebook-1-16.png") no-repeat 50% 50%;
+}
+
+.social-list-twitter {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: url("img/iconmonstr-twitter-1-16.png") no-repeat 50% 50%;  
+}
+
+.main-footer .button {
+  font-size: 14px;
+  line-height: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
