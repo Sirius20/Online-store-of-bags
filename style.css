@@ -2,11 +2,12 @@ body {
   background-color: white;
   font-family: Tinos, Georgia, serif;
   font-size: 16px;
+  font-weight: 400;
   width: 1500px;
   margin: 0 auto;
   border: 3px solid skyblue;
   box-sizing: border-box;
-  padding: 0 60px;
+  padding: 0 80px;
 }
 
 a {
@@ -24,39 +25,10 @@ a {
   border: 0;
 }
 
-.main-header {
-  display: block;
-  margin-top: 80px;
-  margin-bottom: 40px;
-
-}
-
-.main-header-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navig {
-  align-self: center; 
-  flex-grow: 1;
-}
-
-.site-navigation {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-.site-navigation-item {
-  padding-right: 60px;
-  
-}
-
-.site-navigation-item a {
-  font-size: 18px;
-  color: rgb(160, 159, 159);
-}
-
-.site-navigation-item a:hover {
-  color: black;
+h2 {
+  color: #e0c78c;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
 }

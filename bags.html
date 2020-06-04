@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Магазин оригинальных брендовых сумок</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="promo.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="header.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -13,8 +19,8 @@
       <nav class="main-header-nav">
         <div class="logo"><a><img src="img/logo.png" width="160" height="90" alt="Логотип интернет-магазина"></a></div>
 
-        <div class="navig">
-          <ul class="site-navigation">
+        <div class="site-navigation">
+          <ul class="site-navigation-list">
             <li class="site-navigation-item"><a href="#">Мужчинам</a></li>
             <li class="site-navigation-item"><a href="#">Женщинам</a></li>
             <li class="site-navigation-item"><a href="#">Условия доставки</a></li>
@@ -25,18 +31,18 @@
       </nav>
     </header>
 
-    <main class="container">
+    <main>
       <h1 class="visually-hidden">Магазин оригинальных брендовых сумок</h1>
 
       <section class="promo">
         <h2 class="visually-hidden">Распродажи. Акции. Новинки от знаменитых брендов</h2>
         <img class="promo-img" src="img/louis-vuitton.jpg" width="820" height="505" alt="Michelle Williams and Louis Vuitton">
         
-        <div class="promo-description">
-          <p>
-            <span>-30%</span> <span>на сумки LOVIS VITTON</span> только в июле
+        <div class="promo-container">
+          <p class="promo-description">
+            <span class="promo-sales">30%</span><br> <span class="promo-brand">на сумки<br> lovis vitton</span><br> только в июле
           </p>
-          <a class="button" href="#">Перейти к коллекции</a>
+          <a class="button promo-button" href="#">Перейти к коллекции</a>
         </div>
       </section>
 
@@ -54,7 +60,7 @@
 
             <div class="novelties-item__detail">
               <a href="#">Смотреть детали</a>
-              <button type="button">Добавить в корзину</button>
+              <button type="button" class="button-simple">Добавить в корзину</button>
             </div>
           </li>
 
@@ -66,8 +72,8 @@
             </article>
 
             <div class="novelties-item__detail">
-              <a href="#">Смотреть детали</a>
-              <button type="button">Добавить в корзину</button>
+              <a class="link" href="#">Смотреть детали</a>
+              <button type="button" class="button-simple">Добавить в корзину</button>
             </div>
           </li>
 
@@ -80,7 +86,7 @@
 
             <div class="novelties-item__detail">
               <a href="#">Смотреть детали</a>
-              <button type="button">Добавить в корзину</button>
+              <button type="button" class="button-simple">Добавить в корзину</button>
             </div>
           </li>
           
@@ -93,7 +99,7 @@
             
             <div class="novelties-item__detail">
               <a href="#">Смотреть детали</a>
-              <button type="button">Добавить в корзину</button>
+              <button type="button" class="button-simple">Добавить в корзину</button>
             </div>
           </li>
         </ul>
@@ -154,7 +160,7 @@
             <p>
               Выбирая женские брендовые клатчи стоит оценить все возможности и нюансы. А для начала уточнить с каким нарядом планируете его носить, ведь сумка-клатч, не просто стильный аксессуар, а отличительная черта вашего стиля.
             </p>
-            <a href="#">Перейти к новости &rarr;</a>
+            <a class="link" href="#">Перейти к новости &rarr;</a>
           </li>
 
           <li class="style-news-item"><img src="img/news-block-102.jpg" width="315" height="240" alt="Baildinini">
@@ -163,7 +169,7 @@
             <p>
               Один из самых именитых итальянских Домов моды представляет собственный взгляд на то, как именно должна выглядеть современная деловая женщина.
             </p>
-            <a href="#">Перейти к новости &rarr;</a>
+            <a class="link" href="#">Перейти к новости &rarr;</a>
           </li>
 
           <li class="style-news-item"><img src="img/news-block-502.jpg" width="315" height="240" alt="MiTchel KorsO">
@@ -172,7 +178,7 @@
             <p>
               Бренд принадлежит легендарному американскому дизайнеру Майклу Корсу, которому за короткий срок удалось получить известность в мире высокой моды, запустив собственные линии подиумных коллекций. Одежду Корса носят такие знаменитости, как Мишель Обама, Дженнифер Лопес, Хайди Клум, Рэйчел Макадамс, Кэтрин Зета-Джонс и другие.
             </p>
-            <a href="#">Перейти к новости &rarr;</a>
+            <a class="link" href="#">Перейти к новости &rarr;</a>
           </li>
         </ul>
       </article>
@@ -249,7 +255,7 @@
               <a href="">Twitter</a>
             </li>
           </ul>
-          <button type="button">Обратная связь</button>
+          <a class="button">Обратная связь</a>
         </section>
     </footer>
   </body>

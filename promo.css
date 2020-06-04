@@ -1,0 +1,50 @@
+.promo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo-img {
+  order: 1;
+}
+
+.promo-container {
+  flex-grow: 1;
+  position: relative;
+}
+
+.promo-description {
+  position: absolute;
+  font-size: 25px;
+  top: 30px;
+  right: -57px;
+}
+
+.promo-sales {
+  position: relative;
+  font-family: Yeseva One, Goergia, serif;
+  color: #e0c78c;
+  font-size: 115px;
+}
+
+.promo-sales::before {
+  content: "";
+  position: absolute;
+  background-color: #e0c78c;
+  width: 50px;
+  height: 6px;
+  left: -80px;
+  top: 50%;
+}
+
+.promo-brand {
+  font-family: Yeseva One, Goergia, serif;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.promo-button {
+  position: absolute;
+  bottom: 90px;
+  right: 40px;
+}
