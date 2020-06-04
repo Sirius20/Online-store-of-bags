@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: Tinos, Georgia, serif;
+  font-family: PT Serif, Georgia, serif;
   font-size: 16px;
   font-weight: 400;
   width: 1500px;
@@ -27,8 +27,18 @@ a {
 
 h2 {
   color: #e0c78c;
+  font-family: Yeseva One, Goergia, serif;
   font-size: 40px;
   line-height: 60px;
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.heading-description {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }

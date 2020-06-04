@@ -1,6 +1,7 @@
 .promo {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .promo-img {
@@ -15,7 +16,7 @@
 .promo-description {
   position: absolute;
   font-size: 25px;
-  top: 30px;
+  top: 50px;
   right: -57px;
 }
 
@@ -24,6 +25,7 @@
   font-family: Yeseva One, Goergia, serif;
   color: #e0c78c;
   font-size: 115px;
+  line-height: 115px;
 }
 
 .promo-sales::before {
@@ -39,12 +41,12 @@
 .promo-brand {
   font-family: Yeseva One, Goergia, serif;
   font-size: 40px;
-  line-height: 60px;
+  line-height: 55px;
   text-transform: uppercase;
 }
 
 .promo-button {
   position: absolute;
   bottom: 90px;
-  right: 40px;
+  right: 35px;
 }
